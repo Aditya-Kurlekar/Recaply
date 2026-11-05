@@ -9,7 +9,7 @@ __pycache__/
 *.py[cod]
 
 # Generated/local data
-downloads/
+downloades/
 vector_db/
 
 # Streamlit

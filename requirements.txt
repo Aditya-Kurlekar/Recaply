@@ -3,11 +3,9 @@
 
 # ── Streamlit ────────────────────────────────────────────────────────────────
 streamlit>=1.35.0
-streamlit-extras>=0.4.0
-watchdog>=4.0.0
 
 # ── Audio / Video ────────────────────────────────────────────────────────────
-yt-dlp[default]>=2026.8.19
+yt-dlp>=2024.4.9
 pydub>=0.25.1
 ffmpeg-python>=0.2.0
 
@@ -42,5 +40,3 @@ tqdm>=4.66.0
 reportlab>=4.2.0
 fpdf2>=2.7.9
 
-# Python 3.13+ compatibility
-audioop-lts>=0.2.2; python_version >= "3.13"
