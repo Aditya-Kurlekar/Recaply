@@ -1,4 +1,4 @@
-# MeetMind AI - AI Meeting Assistant
+# Recaply - AI Meeting Assistant
 # Python 3.10+
 
 # ── Streamlit ────────────────────────────────────────────────────────────────

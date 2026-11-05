@@ -13,7 +13,7 @@ from core.rag_engine import build_rag_chain, ask_question
 
 load_dotenv()
 
-st.set_page_config(page_title="MeetMind AI", page_icon="🧠", layout="wide")
+st.set_page_config(page_title="Recaply", page_icon="🧠", layout="wide")
 
 st.markdown("""
 <style>
@@ -398,7 +398,7 @@ def run_pipeline(source: str, language: str, source_label: str):
 
 def build_report_text(r):
     return (
-        f"MEETMIND AI — MEETING REPORT\n\nTITLE\n{r['title']}\n\n"
+        f"Recaply — MEETING REPORT\n\nTITLE\n{r['title']}\n\n"
         f"SUMMARY\n{r['summary']}\n\nACTION ITEMS\n{r['action_items']}\n\n"
         f"KEY DECISIONS\n{r['key_decisions']}\n\nOPEN QUESTIONS\n{r['open_questions']}\n\n"
         f"TRANSCRIPT\n{r['transcript']}\n"
@@ -407,7 +407,7 @@ def build_report_text(r):
 
 with st.sidebar:
     st.markdown(
-        "<div class='mm-brand'>✦ MeetMind AI</div>"
+        "<div class='mm-brand'>✦ Recaply</div>"
         "<div class='mm-brand-sub'>MEETING INTELLIGENCE</div>",
         unsafe_allow_html=True,
     )
@@ -647,7 +647,7 @@ if r:
         styles = getSampleStyleSheet()
 
         story = [
-            Paragraph("MeetMind AI — Meeting Report", styles["Title"]),
+            Paragraph("Recaply — Meeting Report", styles["Title"]),
             Spacer(1, 8),
             Paragraph(escape(r["title"]), styles["Heading2"]),
         ]
