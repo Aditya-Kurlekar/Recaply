@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# Secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated/local data
+downloads/
+vector_db/
+
+# Streamlit
+.streamlit/
+
+# VS Code / OS
+.vscode/
+.DS_Store
+Thumbs.db
