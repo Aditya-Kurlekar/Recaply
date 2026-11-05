@@ -13,6 +13,7 @@ def download_youtube_audio(url: str) -> str:
         "format": "bestaudio/best",
         "outtmpl": output_path,
         "js_runtimes": {"node": {}},
+        "remote_components": ["ejs:github"],
         "postprocessors": [
             {
                 "key": "FFmpegExtractAudio",
